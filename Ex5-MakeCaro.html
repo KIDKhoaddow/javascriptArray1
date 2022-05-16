@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<table>
+    <tr>
+        <th>Số lượng ô ngang </th>
+        <th>Số lượng ô dọc</th>
+    </tr>
+    <tr>
+        <td><input type="number" id="numberOfVertical"></td>
+        <td><input type="number" id="numberOfHorizental"></td>
+        <td><button onclick="createCaro()">Create</button></td>
+    </tr>
+    <tr>
+        <th colspan="2">Vị trí đánh</th>
+    </tr>
+    <tr>
+        <td><input type="number" id="positionX"></td>
+        <td><input type="number" id=positionY></td>
+        <td><button onclick="playX()">Play X</button></td>
+
+    </tr>
+</table>
+<span id="Chessboard" style="font-size: 100px"></span>
+
+</body>
+<script src="Ex5-MakeCaro.js"></script>
+</html>
